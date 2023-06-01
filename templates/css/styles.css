@@ -1,0 +1,17 @@
+    .container {
+      width: 300px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    .input-field {
+      margin-bottom: 10px;
+    }
+
+    .btn {
+      padding: 10px 20px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }

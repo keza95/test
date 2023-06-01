@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!--     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">-->
+    <title>Forms Page</title>
+</head>
+<body>
+
+<!--"action" will route the info to the url once the submit button is clicked-->
+<form action="http://127.0.0.1:5000/add-book" method="POST">
+        <div class="input-field">
+            <label for="title">Title: </label>
+            <input type="text" name="title" id="title">
+        </div>
+
+        <div class="input-field">
+            <label for="author">Author: </label>
+            <input type="text" name="author" id="author">
+        </div>
+
+        <div class="input-field">
+            <label for="language">Language: </label>
+            <input type="text" name="language" id="language">
+        </div>
+
+        <button class="btn" onclick="submitForm()">Submit</button>
+
+</form>
+</body>
+</html>
